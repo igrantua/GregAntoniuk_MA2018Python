@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All cities</title>
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>
+</head>
+<body>
+<h2>City</h2>
+    <table>
+        <tr>
+            <td>ID</td>
+            <td>ZIP</td>
+            <td>LONGITUDE</td>
+            <td>LATITUDE</td>
+            <td>ADDRESS</td>
+        </tr>
+        {% for i in points %}
+            <tr>
+                <td>{{ i.id }}</td>
+                <td>{{ i.zip_code }}</td>
+                <td>{{ i.longitude }}</td>
+                <td>{{ i.latitude }}</td>
+                <td>{{ i.address }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
