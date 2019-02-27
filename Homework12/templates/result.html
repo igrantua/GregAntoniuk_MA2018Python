@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New city</title>
+    <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<h2>City</h2>
+
+<table>
+  <tr>
+    <th>ZIP</th>
+    <th>LONGITUDE</th>
+    <th>LATITUDE</th>
+    <th>ADDRESS</th>
+  </tr>
+  <tr>
+    <td> {{ zip_code }} </td>
+    <td>{{ longitude }}</td>
+    <td>{{ latitude }}</td>
+    <td>{{ address }}</td>
+  </tr>
+</table>
+</body>
+</html>
