@@ -75,12 +75,12 @@ fuel-type_diesel і fuel-type_gas, які матимуть значення 0 а
 
 4. Відсутні дані є по 6 атрибутам. 
 
-normalized-losses    41
-bore                  4
-stroke                4
-horsepower            2
-peak-rpm              2
-price                 4
+normalized-losses - 41
+bore - 4
+stroke - 4
+horsepower - 2
+peak-rpm - 2
+price - 4
 
 5. По всім атрибутам потрібно перевірити наявність даних, їх відповідність одиницям виміру, типу даних та діапазону значень, валідність.   
 
