@@ -53,6 +53,7 @@
 3. Категоріальні атрибути:
 
 Ми виділили 16 числових атрибутів з типами float та int. Атрибути типу object, які залишилися - категоріальні. Визначаємо діапазон значень по кожному атрибуту.
+
 | Attribute          	| Range                                             	|
 |--------------------	|---------------------------------------------------	|
 |  make:             	|  alfa-romero, audi, bmw, chevrolet, dodge, honda, 	|
@@ -85,7 +86,7 @@ price                 4
 
 6. Визначаємо коефіцієнт кореляції за допомогою corr()
 
-Price корелюється з engine-size(0.84),  width(0.84) і curb-weight (0.89)
+Price корелюється з engine-size(0.84),  width(0.84) і curb-weight (0.89).
 Curb-weight корелюється з engine-size(0.89), length(0.87), width(0.87) і wheel-base(0.81).
 Wheel-base корелюється з length(0.87) і width(0.82).
 
